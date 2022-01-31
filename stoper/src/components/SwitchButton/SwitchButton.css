@@ -1,0 +1,21 @@
+.button {
+  background-color: aqua;
+  padding: 5% 15%;
+  font-size: large;
+  color: black;
+  text-align: center;
+  cursor: pointer;
+  border: none;
+  border-radius: 10%;
+  transition-duration: 0.3s;
+}
+
+.button:hover {
+  background-color: brown;
+  color: cornsilk;
+}
+
+.button:active {
+  transform: translateY(4px);
+  background-color: tomato;
+}
